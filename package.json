@@ -1,0 +1,35 @@
+{
+  "name": "eslint-config-metrological-node",
+  "version": "1.0.0",
+  "description": "Configuration files for ESLint",
+  "keywords": [
+    "eslint",
+    "config",
+    "eslintconfig",
+    "metrological",
+    "node"
+  ],
+  "license": "ISC",
+  "contributors": [
+    {
+      "name": "Jasper Vermeulen",
+      "email": "j.vermeulen@metrological.com",
+      "url": "http://git.io/jasperv"
+    }
+  ],
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "Metrological/eslint-config-metrological-node"
+  },
+  "dependencies": {
+    "eslint-config-metrological": "Metrological/eslint-config-metrological#1.4.13"
+  },
+  "peerDependencies": {
+    "eslint": "3.12.2"
+  },
+  "engines": {
+    "node": "6.9.2",
+    "npm": "3.10.9"
+  }
+}
